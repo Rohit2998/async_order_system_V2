@@ -27,7 +27,10 @@ This is a Django-based REST API for processing orders asynchronously using **Cel
 - Task queue monitoring with Flower
 
 ---
-
+## 🚀 Start the Project
+```
+docker-compose build 
+```
 ## 📦 API Endpoints
 
 ### ➕ Create an Order
