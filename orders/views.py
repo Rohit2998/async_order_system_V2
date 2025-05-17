@@ -1,8 +1,8 @@
 from rest_framework import viewsets
 from .models import Order
 from .serializers import OrderSerializer
-from .models import Product  # Already imported
-from .serializers import ProductSerializer  # Add this import
+from .models import Product  
+from .serializers import ProductSerializer 
 
 class OrderViewSet(viewsets.ModelViewSet):
     queryset = Order.objects.all()
